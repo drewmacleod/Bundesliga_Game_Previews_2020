@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }} </title>
+</head>
+<body>
+<h1 style='text-align: center;'> {{title}} </h1>
+<div class="container">
+    <h2> Spread Odds</h2>
+     {{ game_matchup_odds}}
+</div>
+<div class="container">
+    <h2> Total Odds</h2>
+     {{ total_odds }}
+     <p> 
+         Note: if there are 2 totals that means the amount wagered is split into 2 separate bets with the same odds, half at total1 and half at total2. 
+    </p>
+</div>
+<div class="container">
+    <h2> Home/Away Splits Table</h2>
+     {{ home_away_df }}
+</div>
+<div class="container">
+    <h2> Form Table </h2>
+    {{ form_df }}
+</div>
+<div class="container">
+    <h2> Head to Head Table </h2>
+    {{ h2h_df }}
+</div>
+</body>
+</html>

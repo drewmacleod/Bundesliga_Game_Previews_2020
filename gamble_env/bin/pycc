@@ -1,0 +1,3 @@
+#!/Users/drewmacleod/Documents/Gambling/Bundesliga/gamble_env/bin/python3
+from numba.pycc import main
+main()
